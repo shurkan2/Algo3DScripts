@@ -7,7 +7,7 @@ public class CreatePrimitives : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        //Create Steve from Minecraft :)
+        //Create Steve from Minecraft (five blocks more):)
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0, 5, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(-0.5f, 6, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0.5f, 6, 0);
